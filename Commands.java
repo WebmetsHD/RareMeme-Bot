@@ -141,6 +141,15 @@ public class Commands extends ListenerAdapter {
 				event.getChannel().sendMessage(eb.build()).queue();
 			}
 		}
+		
+		if (command[0].equalsIgnoreCase("!-joke)) {
+		     		EmbedBuilder eb = new EmbedBuilder();
+				Random rand = new Random();
+						
+				String jokes[] = {"Jokes, Jokes, Jokes, Jokes, Jokes Jokes"};
+						
+			event.getChannel().sendMessage(jokes).queue();		
+			}
 	}
 
 

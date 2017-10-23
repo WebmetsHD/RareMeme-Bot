@@ -150,6 +150,14 @@ public class Commands extends ListenerAdapter {
 						
 			event.getChannel().sendMessage(jokes).queue();		
 			}
+		if (command[0].contains("word1", "word2", "word3") {
+				event.getMessage().delete().complete();
+			EmbedBuilder eb = new EmbedBuilder();
+			eb.setColor(Color.PINK);
+			eb.setDescription("Please don't use innapropriate language.");
+			
+			event.getChannel().sendMessage(eb.build()).queue();
+		}
 	}
 
 
